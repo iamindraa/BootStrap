@@ -1,0 +1,28 @@
+ <div class="row">
+                        <div class="col-lg-12">
+                            <h6>संपर्क करे</h6>
+                            <hr />
+                            <div class="clearfix"></div>
+                        </div>
+                        <div class=" col-lg-2">
+                            <label>नाम</label>
+                        </div>
+                        <div class="col-lg-10">
+                            <input type="text" class="form-control form-control-sm" id="InputName" name="name" />
+                        </div>
+                        <div class="col-lg-2">
+                            <label>ईमेल</label>
+                        </div>
+                        <div class="col-lg-10">
+                            <input type="text" class="form-control form-control-sm" id="InputEmail" name="email" />
+                        </div>
+                        <div class="col-lg-2">
+                            <label>सन्देश</label>
+                        </div>
+                        <div class="col-lg-10">
+                            <textarea class="form-control" id="messagetext" name="notes" rows="6"></textarea>
+                        </div>
+                       <div class="col-lg-12">
+                            <button type="submit" class="btn btn-sm btn-success float-right" id="btnSubmit" onclick="myMail()">सबमिट करें </button>
+                        </div>
+                    </div>
